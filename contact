@@ -1,3 +1,4 @@
+## css
 body {
   font-family: Arial, sans-serif;
   background-color: #f2f2f2;
@@ -43,3 +44,26 @@ h1 {
   padding: 10px 20px;
   cursor: pointer;
 }
+
+## html
+
+            <div class="contact-form">
+                <h2>Kontak.saya</h2>
+                <br>
+                <form action="#" method="post">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+    
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+    
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+    
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
